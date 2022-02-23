@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+}
+h3{
+
+    font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        line-height: 10px;
+        
+    }
+
+li{
+    
+display: inline-block;
+margin: 20px;
+font-family: "Poppins";
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+}
+
+#entreemcontato{
+    border: 2px solid blueviolet;
+padding: 10px;
+border-radius: 15px;
+}
+
+#entreemcontato:hover  {
+    background-color: blueviolet;
+    color: white;
+    transition: 0.3s all;
+}
+h1{
+    font-family: 'Press Start 2P', sans-serif;
+}
+h2{
+    font-family: "Poppins";
+
+    font-size: 60px;
+    font-weight: 300;
+line-height: 70px;
+margin-bottom: -50px;
+}
+
+
+
+
+
+
+
+span{
+    font-family: "Poppins";
+
+    color: blueviolet;
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+
+p{
+max-width: 600px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    line-height: 35px;
+    margin-top: 80px;
+}
+
+img{
+    width: 1000;
+}
+
+form{
+    display: flex;
+flex-direction: column;
+width: 70%;
+}
+
+input{
+    margin-top: 15px;
+    height: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
